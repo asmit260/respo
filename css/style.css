@@ -179,7 +179,8 @@ section { padding: var(--sp) 0; }
   background: #fff; border-top: 1px solid var(--border);
   padding: 12px 20px 20px; gap: 4px;
 }
-.mobile-nav a { font-family: var(--font-h); font-size: .95rem; font-weight: 500; color: var(--text); padding: 12px 16px; border-radius: var(--r-sm); transition: all var(--ease); }
+#mobile-nav-links { display: flex; flex-direction: column; gap: 4px; }
+.mobile-nav a { display: block; font-family: var(--font-h); font-size: .95rem; font-weight: 500; color: var(--text); padding: 12px 16px; border-radius: var(--r-sm); transition: all var(--ease); text-align: left; }
 .mobile-nav a:hover, .mobile-nav a.active { color: var(--primary); background: var(--primary-light); }
 .mobile-nav .btn { margin-top: 8px; justify-content: center; width: 100%; }
 
