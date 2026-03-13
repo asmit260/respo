@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery — Little Stars Preschool</title>
+  <meta name="description" content="Browse photos of our classrooms, activities, outdoor play, and celebrations at Little Stars Preschool, Jaipur.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon"><i class="ri-star-fill"></i></div>
+        <span class="nav-logo-name">Little Stars</span>
+      </a>
+      <div class="nav-links" id="nav-links"></div>
+      <a href="contact.html" class="btn btn-primary nav-cta" style="padding:10px 20px;font-size:.88rem"><i class="ri-calendar-line"></i> Book a Visit</a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav"><div id="mobile-nav-links"></div></div>
+  </div>
+</nav>
+
+<div class="page-banner">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> &rsaquo; Gallery</div>
+    <h1>Our Photo Gallery</h1>
+    <p>Real moments of learning, play, and joy from our classrooms every day.</p>
+  </div>
+</div>
+
+<!-- GALLERY -->
+<section id="gallery-page">
+  <div class="container">
+    <div style="background:var(--primary-light);border-radius:var(--r);padding:14px 20px;margin-bottom:32px;font-size:.9rem;color:var(--text);border:1px solid rgba(255,122,0,.15)" class="reveal">
+      <i class="ri-lightbulb-line" style="color:var(--primary)"></i>
+      <strong>Want to add your own photos?</strong>
+      Open <code>site.config.js</code> and add entries to the <code>gallery[]</code> array.
+    </div>
+    <div class="filter-tabs" id="gallery-filters"></div>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox">
+  <div class="lightbox-inner">
+    <button class="lightbox-btn" id="lightbox-prev">&#8249;</button>
+    <img id="lightbox-img" src="" alt="">
+    <button class="lightbox-btn" id="lightbox-next">&#8250;</button>
+    <button class="lightbox-btn" id="lightbox-close" style="position:absolute;top:-50px;right:0;font-size:1.6rem">&#10005;</button>
+    <div id="lightbox-caption"></div>
+    <div id="lightbox-counter"></div>
+  </div>
+</div>
+
+<!-- CTA -->
+<section id="cta" style="background:linear-gradient(135deg,#FF7A00,#FF9A3C,#FFB347)">
+  <div class="container">
+    <div class="reveal">
+      <h2 style="color:#fff">Come See It in Person</h2>
+      <p style="color:rgba(255,255,255,.88)">Photos are just the beginning. Visit us and experience the warmth of Little Stars for yourself.</p>
+      <div class="cta-btns">
+        <a href="contact.html" class="btn btn-white"><i class="ri-calendar-line"></i> Book a School Visit</a>
+        <a href="#" id="cta-wa"   class="btn" style="background:rgba(255,255,255,.15);color:#fff;border:2px solid rgba(255,255,255,.5)"><i class="ri-whatsapp-line"></i> WhatsApp Us</a>
+        <a href="#" id="cta-call" class="btn" style="background:rgba(255,255,255,.15);color:#fff;border:2px solid rgba(255,255,255,.5)"><i class="ri-phone-line"></i> Call Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><div class="nav-logo-icon"><i class="ri-star-fill"></i></div><span class="nav-logo-name" id="footer-name"></span></a>
+        <p id="footer-tagline"></p>
+        <div class="footer-social"><a href="#" id="footer-fb"><i class="ri-facebook-fill"></i></a><a href="#" id="footer-ig"><i class="ri-instagram-fill"></i></a><a href="#" id="footer-wa"><i class="ri-whatsapp-line"></i></a></div>
+      </div>
+      <div class="footer-col"><h4>Quick Links</h4><ul id="footer-nav-links"></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul>
+        <li class="footer-contact-item"><span><i class="ri-map-pin-line"></i></span><span id="footer-address"></span></li>
+        <li class="footer-contact-item"><span><i class="ri-phone-line"></i></span><a href="#" id="footer-phone"></a></li>
+        <li class="footer-contact-item"><span><i class="ri-mail-line"></i></span><a href="#" id="footer-email"></a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Programs</h4><ul>
+        <li><a href="programs.html">Playgroup (2–3 yrs)</a></li>
+        <li><a href="programs.html">Nursery (3–4 yrs)</a></li>
+        <li><a href="programs.html">Kindergarten (4–5 yrs)</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="footer-year"></span> <span id="footer-school-name"></span>. All rights reserved.</span>
+      <span>Made with <i class="ri-heart-fill" style="color:#FF7A00"></i> for little learners</span>
+    </div>
+  </div>
+</footer>
+<div id="sticky-bar"><div class="sticky-inner">
+  <a href="#" class="sticky-call" id="sticky-call"><i class="ri-phone-fill"></i> <span id="sticky-call-num">Call</span></a>
+  <a href="#" class="sticky-wa" id="sticky-wa"><i class="ri-whatsapp-line"></i> WhatsApp</a>
+</div></div>
+<a href="#" class="wa-float" id="wa-float"><i class="ri-whatsapp-line"></i></a>
+<script src="site.config.js"></script>
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>
