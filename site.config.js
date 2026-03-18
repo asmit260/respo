@@ -31,15 +31,15 @@ const SITE_CONFIG = {
 
   // ─── 1. SCHOOL DETAILS ─────────────────────────────────────────────
   school: {
-    name:         "Amazing Pathshala - Best Pre school in Vastrapur Ahmedabad",
+    name:         "Apple Eye Smart Pre-School",
     logo:         "images/logo.png",
     tagline:      "Where Every Child Shines",
-    phone:        "092658 81804",
-    whatsapp:     "919265881804",       // No spaces, no +, with country code
-    email:        "hello@amazingpathshala.in",
-    address:      "Trilok Row House, 19, Parmeshwar Mahadev Rd, Lad Society, Vastrapur, Ahmedabad, Gujarat 380015",
-    mapEmbed:     "https://maps.google.com/maps?q=Vastrapur,Ahmedabad&output=embed",
-    visitTiming:  "Open – Closes 8 pm",
+    phone:        "092168 81282",
+    whatsapp:     "919216881282",       // No spaces, no +, with country code
+    email:        "info@appleeyesmartpreschool.com",
+    address:      "1 Road, VIP Rd, near Maya Garden, Ramgarh Bhudda, Zirakpur, Punjab 140603",
+    mapEmbed:     "https://maps.google.com/maps?q=Ramgarh+Bhudda,Zirakpur,Punjab&output=embed",
+    visitTiming:  "Open – Closes 3 pm",
     founded:      "2010",
     instagram:    "#",   // Replace with your Instagram page URL
     facebook:     "#",   // Replace with your Facebook page URL
@@ -66,11 +66,10 @@ const SITE_CONFIG = {
     image:       "images/real_img1.jpg",
     slideshow:   [
       "images/real_img1.jpg",
-      "images/real_img2.jpeg",
+      "images/real_img2.jpg",
       "images/real_img3.jpg",
       "images/real_img4.jpg",
-      "images/real_img5.jpg",
-      "images/real_img6.jpeg"
+      "images/real_img5.jpg"
     ]
   },
 
@@ -109,7 +108,7 @@ const SITE_CONFIG = {
   // ─── 5B. PRINCIPAL MESSAGE ─────────────────────────────────────────
   principal: {
     photo: "images/principal.jpg",
-    message: "Welcome to Little Stars Preschool! We believe that early childhood is a magical time of discovery. Our goal is to nurture every child's innate curiosity and provide a safe, loving environment where they can blossom into confident learners. We look forward to partnering with you on this beautiful journey.",
+    message: "Welcome to Apple Eye Smart Pre-School! We believe that early childhood is a magical time of discovery. Our goal is to nurture every child's innate curiosity and provide a safe, loving environment where they can blossom into confident learners. We look forward to partnering with you on this beautiful journey.",
     name: "Mrs. Kavita Sharma",
     title: "Principal & Founder"
   },
@@ -182,7 +181,7 @@ const SITE_CONFIG = {
     {
       name:     "Sonal Soni",
       location: "3 years ago",
-      text:     "My daughter Anaya studies in Little Stars in Nursery. I took the admission after a lot of research and positive feedback from parents and I must say that I am very happy with my decision. They make each and every kid comfortable and work on their weak areas.",
+      text:     "My daughter Anaya studies in Apple Eye in Nursery. I took the admission after a lot of research and positive feedback from parents and I must say that I am very happy with my decision. They make each and every kid comfortable and work on their weak areas.",
       rating:   5,
       initials: "SS",
       color:    "#FF7A00",
@@ -190,7 +189,7 @@ const SITE_CONFIG = {
     {
       name:     "Pinky Nathbawa",
       location: "3 years ago",
-      text:     "Little Stars is the best pre school. They have very friendly and calm staff members, who are very well trained. The education system is just great. They have a very clean, bright, and well maintained space.",
+      text:     "Apple Eye is the best pre school. They have very friendly and calm staff members, who are very well trained. The education system is just great. They have a very clean, bright, and well maintained space.",
       rating:   5,
       initials: "PN",
       color:    "#4CAF50",
@@ -198,7 +197,7 @@ const SITE_CONFIG = {
     {
       name:     "Revati More",
       location: "2 years ago",
-      text:     "Finalised this school for our son after considering 3-4 other options. I am glad we did so. Little Stars is amazing in following aspects: Structured curriculum, engaging events, and caring teachers.",
+      text:     "Finalised this school for our son after considering 3-4 other options. I am glad we did so. Apple Eye is amazing in following aspects: Structured curriculum, engaging events, and caring teachers.",
       rating:   5,
       initials: "RM",
       color:    "#7C3AED",
@@ -270,19 +269,19 @@ const SITE_CONFIG = {
 
   // ─── 12. ABOUT PAGE ────────────────────────────────────────────────
   about: {
-    story:          "Founded in 2010, Little Stars Preschool began with a simple dream — to create a safe, loving, and stimulating environment where every child could discover the joy of learning. What started as a small classroom of 20 students has grown into a trusted institution for hundreds of Jaipur families.",
+    story:          "Founded in 2010, Apple Eye Smart Pre-School began with a simple dream — to create a safe, loving, and stimulating environment where every child could discover the joy of learning. What started as a small classroom of 20 students has grown into a trusted institution for hundreds of Zirakpur families.",
     founderMessage: "Our philosophy is simple: every child is unique and deserves a learning experience that nurtures their individual strengths. We believe the first five years are the most important in a child's life. We are proud partners with parents in shaping confident, curious, and happy learners.",
     founderName:    "Mrs. Kavita Sharma",
-    founderTitle:   "Founder & Head Teacher, Little Stars Preschool",
-    vision:         "To be the most trusted preschool in Jaipur, where every child flourishes academically, socially, and emotionally.",
+    founderTitle:   "Founder & Head Teacher, Apple Eye Smart Pre-School",
+    vision:         "To be the most trusted preschool in Zirakpur, where every child flourishes academically, socially, and emotionally.",
     mission:        "To provide a safe, inclusive, and stimulating early learning environment that develops confident, curious, and creative children ready for lifelong learning.",
   },
 
   // ─── 13. SEO META ──────────────────────────────────────────────────
   seo: {
-    siteName:    "Little Stars Preschool",
-    description: "Little Stars Preschool in Jaipur — A safe, play-based learning environment for children aged 2–5. Playgroup, Nursery & Kindergarten programs.",
-    keywords:    "preschool jaipur, playgroup jaipur, nursery school jaipur, kindergarten near me, best preschool jaipur",
+    siteName:    "Apple Eye Smart Pre-School",
+    description: "Apple Eye Smart Pre-School in Zirakpur — A safe, play-based learning environment for children aged 2–5. Playgroup, Nursery & Kindergarten programs.",
+    keywords:    "preschool zirakpur, playgroup zirakpur, nursery school zirakpur, kindergarten near me, best preschool zirakpur",
   },
 
 };
